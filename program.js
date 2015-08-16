@@ -1,15 +1,20 @@
-var concat = require('concat-stream');
+var http = require('http'),
+  fs = require('fs'),
+  through = require('through2'),
+  server = http.createServer(function(req, res) {
+    if (req.method === 'POST') {
+      req.pipe(through(write, end))
+        .pipe(res);
+    }
+  });
 
-function reverse(s) {
-  return s.split('').reverse().join('');
+function write(buf, _, next) {
+  this.push(buf.toString().toUpperCase());
+  next();
 }
 
-var concatStream = concat(function(stringBuffer) {
-  console.log(reverse(stringBuffer.toString()));
-  // return reverse(stringBuffer.toString());
-});
+function end(done) {
+  done();
+}
 
-process.stdin
-  .pipe(concatStream)
-  // .pipe(process.stdout)
-;
+server.listen(process.argv[2]);
