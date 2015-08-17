@@ -1,0 +1,449 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'zlib',
+1 verbose cli   'stream-combiner' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose config Skipping project config: /Users/Jeremy/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/Jeremy/package.json
+6 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/concat-stream/package.json
+7 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/duplexer/package.json
+8 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/duplexer2/package.json
+9 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/request/package.json
+10 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/split/package.json
+11 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/stream-combiner/package.json
+12 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/swagger-client/package.json
+13 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/tar/package.json
+14 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/through2/package.json
+15 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/trumpet/package.json
+16 verbose installManyTop reading scoped package data from /Users/Jeremy/node_modules/websocket-stream/package.json
+17 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+18 info package.json duplexer@0.1.1 No license field.
+19 info package.json swagger-client@2.0.41 license should be a valid SPDX license expression
+20 verbose readDependencies loading dependencies from /Users/Jeremy/package.json
+21 silly cache add args [ 'zlib', null ]
+22 verbose cache add spec zlib
+23 verbose install stream-combiner is installed as 0.2.2
+24 silly cache add args [ 'stream-combiner', null ]
+25 verbose cache add spec stream-combiner
+26 silly cache add parsed spec { raw: 'zlib',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'zlib',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: '*',
+26 silly cache add   type: 'range' }
+27 silly addNamed zlib@*
+28 verbose addNamed "*" is a valid semver range for zlib
+29 silly addNameRange { name: 'zlib', range: '*', hasData: false }
+30 silly mapToRegistry name zlib
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/zlib
+34 verbose addNameRange registry:https://registry.npmjs.org/zlib not in flight; fetching
+35 silly cache add parsed spec { raw: 'stream-combiner',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'stream-combiner',
+35 silly cache add   rawSpec: '',
+35 silly cache add   spec: '*',
+35 silly cache add   type: 'range' }
+36 silly addNamed stream-combiner@*
+37 verbose addNamed "*" is a valid semver range for stream-combiner
+38 silly addNameRange { name: 'stream-combiner', range: '*', hasData: false }
+39 silly mapToRegistry name stream-combiner
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/stream-combiner
+43 verbose addNameRange registry:https://registry.npmjs.org/stream-combiner not in flight; fetching
+44 verbose request uri https://registry.npmjs.org/zlib
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 9:11:03 PM
+47 verbose request id af01a4eae3a849a7
+48 http request GET https://registry.npmjs.org/zlib
+49 verbose request uri https://registry.npmjs.org/stream-combiner
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 9:11:03 PM
+52 verbose etag "4R0X6MQ7YICAE0KV640XVA2HW"
+53 http request GET https://registry.npmjs.org/stream-combiner
+54 http 304 https://registry.npmjs.org/stream-combiner
+55 silly get cb [ 304,
+55 silly get   { date: 'Mon, 17 Aug 2015 04:11:03 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     'cache-control': 'max-age=60',
+55 silly get     etag: '"4R0X6MQ7YICAE0KV640XVA2HW"',
+55 silly get     age: '7',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-sjc3128-SJC',
+55 silly get     'x-cache': 'HIT',
+55 silly get     'x-cache-hits': '1',
+55 silly get     'x-timer': 'S1439784663.928750,VS0,VE0',
+55 silly get     vary: 'Accept' } ]
+56 verbose etag https://registry.npmjs.org/stream-combiner from cache
+57 verbose get saving stream-combiner to /Users/Jeremy/.npm/registry.npmjs.org/stream-combiner/.cache.json
+58 silly addNameRange number 2 { name: 'stream-combiner', range: '*', hasData: true }
+59 silly addNameRange versions [ 'stream-combiner',
+59 silly addNameRange   [ '0.0.0',
+59 silly addNameRange     '0.0.1',
+59 silly addNameRange     '0.0.2',
+59 silly addNameRange     '0.0.4',
+59 silly addNameRange     '0.1.0',
+59 silly addNameRange     '0.2.0',
+59 silly addNameRange     '0.2.1',
+59 silly addNameRange     '0.2.2' ] ]
+60 silly addNamed stream-combiner@0.2.2
+61 verbose addNamed "0.2.2" is a plain semver version for stream-combiner
+62 silly cache afterAdd stream-combiner@0.2.2
+63 verbose afterAdd /Users/Jeremy/.npm/stream-combiner/0.2.2/package/package.json not in flight; writing
+64 verbose afterAdd /Users/Jeremy/.npm/stream-combiner/0.2.2/package/package.json written
+65 http 200 https://registry.npmjs.org/zlib
+66 silly get cb [ 200,
+66 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+66 silly get     etag: '"EBQNZSBGN9EL34IT3BLYCYHQA"',
+66 silly get     'content-type': 'application/json',
+66 silly get     'cache-control': 'max-age=60',
+66 silly get     'content-length': '6082',
+66 silly get     'accept-ranges': 'bytes',
+66 silly get     date: 'Mon, 17 Aug 2015 04:11:03 GMT',
+66 silly get     via: '1.1 varnish',
+66 silly get     age: '0',
+66 silly get     connection: 'keep-alive',
+66 silly get     'x-served-by': 'cache-sjc3134-SJC',
+66 silly get     'x-cache': 'MISS',
+66 silly get     'x-cache-hits': '0',
+66 silly get     'x-timer': 'S1439784663.932230,VS0,VE41',
+66 silly get     vary: 'Accept' } ]
+67 verbose get saving zlib to /Users/Jeremy/.npm/registry.npmjs.org/zlib/.cache.json
+68 silly addNameRange number 2 { name: 'zlib', range: '*', hasData: true }
+69 silly addNameRange versions [ 'zlib',
+69 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+70 silly addNamed zlib@1.0.5
+71 verbose addNamed "1.0.5" is a plain semver version for zlib
+72 silly mapToRegistry name zlib
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/zlib
+76 verbose addRemoteTarball https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz not in flight; adding
+77 verbose addRemoteTarball [ 'https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz',
+77 verbose addRemoteTarball   '6e7c972fc371c645a6afb03ab14769def114fcc0' ]
+78 info retry fetch attempt 1 at 9:11:04 PM
+79 info attempt registry request try #1 at 9:11:04 PM
+80 http fetch GET https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz
+81 http fetch 200 https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz
+82 silly fetchAndShaCheck shasum 6e7c972fc371c645a6afb03ab14769def114fcc0
+83 verbose addTmpTarball /var/folders/rh/gf449v096fj_h4d6xd65dk680000gn/T/npm-73480-8bfe99d2/registry.npmjs.org/zlib/-/zlib-1.0.5.tgz not in flight; adding
+84 verbose addTmpTarball already have metadata; skipping unpack for zlib@1.0.5
+85 silly cache afterAdd zlib@1.0.5
+86 verbose afterAdd /Users/Jeremy/.npm/zlib/1.0.5/package/package.json not in flight; writing
+87 verbose afterAdd /Users/Jeremy/.npm/zlib/1.0.5/package/package.json written
+88 silly install resolved [ { name: 'stream-combiner',
+88 silly install resolved     version: '0.2.2',
+88 silly install resolved     homepage: 'https://github.com/dominictarr/stream-combiner',
+88 silly install resolved     repository:
+88 silly install resolved      { type: 'git',
+88 silly install resolved        url: 'git://github.com/dominictarr/stream-combiner.git' },
+88 silly install resolved     dependencies: { duplexer: '~0.1.1', through: '~2.3.4' },
+88 silly install resolved     devDependencies: { tape: '~2.3.0', 'event-stream': '~3.0.7' },
+88 silly install resolved     scripts: { test: 'set -e; for t in test/*.js; do node $t; done' },
+88 silly install resolved     author:
+88 silly install resolved      { name: '\'Dominic Tarr\'',
+88 silly install resolved        email: 'dominic.tarr@gmail.com',
+88 silly install resolved        url: 'http://dominictarr.com' },
+88 silly install resolved     license: 'MIT',
+88 silly install resolved     gitHead: '5a8ab6f1843d08d89801eecd91ff10be65b667a0',
+88 silly install resolved     description: '[![npm version](https://img.shields.io/npm/v/stream-combiner.svg)](https://npmjs.org/package/stream-combiner)  [![Travis CI](https://travis-ci.org/dominictarr/stream-combiner.svg)](https://travis-ci.org/dominictarr/stream-combiner)',
+88 silly install resolved     bugs: { url: 'https://github.com/dominictarr/stream-combiner/issues' },
+88 silly install resolved     _id: 'stream-combiner@0.2.2',
+88 silly install resolved     _shasum: 'aec8cbac177b56b6f4fa479ced8c1912cee52858',
+88 silly install resolved     _from: 'stream-combiner@*',
+88 silly install resolved     _npmVersion: '2.11.0',
+88 silly install resolved     _nodeVersion: '0.12.4',
+88 silly install resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+88 silly install resolved     maintainers: [ [Object] ],
+88 silly install resolved     dist:
+88 silly install resolved      { shasum: 'aec8cbac177b56b6f4fa479ced8c1912cee52858',
+88 silly install resolved        tarball: 'http://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.2.tgz' },
+88 silly install resolved     directories: {},
+88 silly install resolved     _resolved: 'https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.2.tgz',
+88 silly install resolved     readme: 'ERROR: No README data found!' },
+88 silly install resolved   { name: 'zlib',
+88 silly install resolved     description: 'Simple, synchronous deflate/inflate for buffers',
+88 silly install resolved     version: '1.0.5',
+88 silly install resolved     homepage: 'https://github.com/kkaefer/node-zlib',
+88 silly install resolved     author: { name: 'Konstantin Käfer', email: 'kkaefer@gmail.com' },
+88 silly install resolved     repository: { type: 'git', url: 'git://github.com/kkaefer/node-zlib.git' },
+88 silly install resolved     engines: { node: '>=0.2.0' },
+88 silly install resolved     licenses: [ [Object] ],
+88 silly install resolved     main: './lib/zlib',
+88 silly install resolved     _npmJsonOpts:
+88 silly install resolved      { file: '/Users/kkaefer/.npm/zlib/1.0.5/package/package.json',
+88 silly install resolved        contributors: false,
+88 silly install resolved        serverjs: false,
+88 silly install resolved        wscript: true },
+88 silly install resolved     _id: 'zlib@1.0.5',
+88 silly install resolved     scripts: { preinstall: 'node-waf clean || true; node-waf configure build' },
+88 silly install resolved     dependencies: {},
+88 silly install resolved     devDependencies: {},
+88 silly install resolved     _engineSupported: true,
+88 silly install resolved     _npmVersion: '1.0.23',
+88 silly install resolved     _nodeVersion: 'v0.4.9',
+88 silly install resolved     _defaultsLoaded: true,
+88 silly install resolved     dist:
+88 silly install resolved      { shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+88 silly install resolved        tarball: 'http://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz' },
+88 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+88 silly install resolved     directories: {},
+88 silly install resolved     _shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+88 silly install resolved     _resolved: 'https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz',
+88 silly install resolved     _from: 'zlib@*' } ]
+89 info install stream-combiner@0.2.2 into /Users/Jeremy
+90 info install zlib@1.0.5 into /Users/Jeremy
+91 info installOne stream-combiner@0.2.2
+92 verbose installOne of stream-combiner to /Users/Jeremy not in flight; installing
+93 info installOne zlib@1.0.5
+94 verbose installOne of zlib to /Users/Jeremy not in flight; installing
+95 verbose lock using /Users/Jeremy/.npm/_locks/stream-combiner-dd0ca251466ff470.lock for /Users/Jeremy/node_modules/stream-combiner
+96 verbose lock using /Users/Jeremy/.npm/_locks/zlib-138770a87f04881c.lock for /Users/Jeremy/node_modules/zlib
+97 silly install write writing stream-combiner 0.2.2 to /Users/Jeremy/node_modules/stream-combiner
+98 silly install write writing zlib 1.0.5 to /Users/Jeremy/node_modules/zlib
+99 verbose unbuild node_modules/stream-combiner
+100 verbose unbuild node_modules/zlib
+101 silly gentlyRm /Users/Jeremy/node_modules/zlib is being purged from base /Users/Jeremy
+102 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/zlib
+103 verbose tar unpack /Users/Jeremy/.npm/zlib/1.0.5/package.tgz
+104 verbose tar unpacking to /Users/Jeremy/node_modules/zlib
+105 silly gentlyRm /Users/Jeremy/node_modules/zlib is being purged
+106 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/zlib
+107 silly gunzTarPerm modes [ '755', '644' ]
+108 info preuninstall stream-combiner@0.2.2
+109 info uninstall stream-combiner@0.2.2
+110 verbose unbuild rmStuff stream-combiner@0.2.2 from /Users/Jeremy/node_modules
+111 info postuninstall stream-combiner@0.2.2
+112 silly gunzTarPerm extractEntry .gitignore
+113 silly gentlyRm /Users/Jeremy/node_modules/stream-combiner is being purged from base /Users/Jeremy
+114 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/stream-combiner
+115 silly vacuum-fs purging /Users/Jeremy/node_modules/stream-combiner
+116 silly gunzTarPerm extractEntry configure
+117 silly gunzTarPerm extractEntry index.js
+118 silly gunzTarPerm extractEntry LICENSE
+119 silly gunzTarPerm extractEntry Makefile
+120 silly gunzTarPerm extractEntry package.json
+121 silly gunzTarPerm extractEntry README.md
+122 silly vacuum-fs quitting because other entries in /Users/Jeremy/node_modules
+123 verbose tar unpack /Users/Jeremy/.npm/stream-combiner/0.2.2/package.tgz
+124 verbose tar unpacking to /Users/Jeremy/node_modules/stream-combiner
+125 silly gentlyRm /Users/Jeremy/node_modules/stream-combiner is being purged
+126 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/stream-combiner
+127 silly gunzTarPerm modes [ '755', '644' ]
+128 silly gunzTarPerm extractEntry wscript
+129 silly gunzTarPerm extractEntry lib/zlib.js
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm extractEntry .npmignore
+132 silly gunzTarPerm extractEntry README.md
+133 silly gunzTarPerm extractEntry src/node-zlib.cc
+134 silly gunzTarPerm extractEntry test/deflate.test.js
+135 silly gunzTarPerm extractEntry test/inflate.test.js
+136 silly gunzTarPerm extractEntry LICENSE
+137 silly gunzTarPerm extractEntry index.js
+138 silly gunzTarPerm extractEntry .travis.yml
+139 silly gunzTarPerm extractEntry test/index.js
+140 verbose write writing to /Users/Jeremy/node_modules/stream-combiner/package.json
+141 info preinstall stream-combiner@0.2.2
+142 verbose readDependencies loading dependencies from /Users/Jeremy/node_modules/stream-combiner/package.json
+143 silly prepareForInstallMany adding through@~2.3.4 from stream-combiner dependencies
+144 verbose readDependencies loading dependencies from /Users/Jeremy/node_modules/stream-combiner/package.json
+145 silly cache add args [ 'through@~2.3.4', null ]
+146 verbose cache add spec through@~2.3.4
+147 silly cache add parsed spec { raw: 'through@~2.3.4',
+147 silly cache add   scope: null,
+147 silly cache add   name: 'through',
+147 silly cache add   rawSpec: '~2.3.4',
+147 silly cache add   spec: '>=2.3.4 <2.4.0',
+147 silly cache add   type: 'range' }
+148 silly addNamed through@>=2.3.4 <2.4.0
+149 verbose addNamed ">=2.3.4 <2.4.0" is a valid semver range for through
+150 silly addNameRange { name: 'through', range: '>=2.3.4 <2.4.0', hasData: false }
+151 silly mapToRegistry name through
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/through
+155 verbose addNameRange registry:https://registry.npmjs.org/through not in flight; fetching
+156 verbose request uri https://registry.npmjs.org/through
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 9:11:04 PM
+159 verbose etag "B1POSHOBO00OJ6F61G3E4VXR"
+160 http request GET https://registry.npmjs.org/through
+161 verbose write writing to /Users/Jeremy/node_modules/zlib/package.json
+162 info preinstall zlib@1.0.5
+163 verbose unsafe-perm in lifecycle true
+164 info zlib@1.0.5 Failed to exec preinstall script
+165 verbose unlock done using /Users/Jeremy/.npm/_locks/zlib-138770a87f04881c.lock for /Users/Jeremy/node_modules/zlib
+166 http 304 https://registry.npmjs.org/through
+167 silly get cb [ 304,
+167 silly get   { date: 'Mon, 17 Aug 2015 04:11:04 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     'cache-control': 'max-age=60',
+167 silly get     etag: '"B1POSHOBO00OJ6F61G3E4VXR"',
+167 silly get     age: '41',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-sjc3132-SJC',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '5',
+167 silly get     'x-timer': 'S1439784664.797854,VS0,VE0',
+167 silly get     vary: 'Accept' } ]
+168 verbose etag https://registry.npmjs.org/through from cache
+169 verbose get saving through to /Users/Jeremy/.npm/registry.npmjs.org/through/.cache.json
+170 silly addNameRange number 2 { name: 'through', range: '>=2.3.4 <2.4.0', hasData: true }
+171 silly addNameRange versions [ 'through',
+171 silly addNameRange   [ '0.0.1',
+171 silly addNameRange     '0.0.2',
+171 silly addNameRange     '0.0.3',
+171 silly addNameRange     '0.0.4',
+171 silly addNameRange     '0.1.0',
+171 silly addNameRange     '0.1.1',
+171 silly addNameRange     '0.1.2',
+171 silly addNameRange     '0.1.3',
+171 silly addNameRange     '0.1.4',
+171 silly addNameRange     '1.0.0',
+171 silly addNameRange     '1.1.0',
+171 silly addNameRange     '1.1.1',
+171 silly addNameRange     '1.1.2',
+171 silly addNameRange     '2.0.0',
+171 silly addNameRange     '2.1.0',
+171 silly addNameRange     '2.2.0',
+171 silly addNameRange     '2.2.1',
+171 silly addNameRange     '2.2.2',
+171 silly addNameRange     '2.2.4',
+171 silly addNameRange     '2.2.5',
+171 silly addNameRange     '2.2.6',
+171 silly addNameRange     '2.2.7',
+171 silly addNameRange     '2.3.1',
+171 silly addNameRange     '2.3.2',
+171 silly addNameRange     '2.3.3',
+171 silly addNameRange     '2.3.4',
+171 silly addNameRange     '2.3.6',
+171 silly addNameRange     '2.3.7',
+171 silly addNameRange     '2.3.8' ] ]
+172 silly addNamed through@2.3.8
+173 verbose addNamed "2.3.8" is a plain semver version for through
+174 silly cache afterAdd through@2.3.8
+175 verbose afterAdd /Users/Jeremy/.npm/through/2.3.8/package/package.json not in flight; writing
+176 verbose afterAdd /Users/Jeremy/.npm/through/2.3.8/package/package.json written
+177 silly install resolved [ { name: 'through',
+177 silly install resolved     version: '2.3.8',
+177 silly install resolved     description: 'simplified stream construction',
+177 silly install resolved     main: 'index.js',
+177 silly install resolved     scripts: { test: 'set -e; for t in test/*.js; do node $t; done' },
+177 silly install resolved     devDependencies: { 'stream-spec': '~0.3.5', tape: '~2.3.2', from: '~0.1.3' },
+177 silly install resolved     keywords: [ 'stream', 'streams', 'user-streams', 'pipe' ],
+177 silly install resolved     author:
+177 silly install resolved      { name: 'Dominic Tarr',
+177 silly install resolved        email: 'dominic.tarr@gmail.com',
+177 silly install resolved        url: 'dominictarr.com' },
+177 silly install resolved     license: 'MIT',
+177 silly install resolved     repository:
+177 silly install resolved      { type: 'git',
+177 silly install resolved        url: 'git+https://github.com/dominictarr/through.git' },
+177 silly install resolved     homepage: 'https://github.com/dominictarr/through',
+177 silly install resolved     testling: { browsers: [Object], files: 'test/*.js' },
+177 silly install resolved     gitHead: '2c5a6f9a0cc54da759b6e10964f2081c358e49dc',
+177 silly install resolved     bugs: { url: 'https://github.com/dominictarr/through/issues' },
+177 silly install resolved     _id: 'through@2.3.8',
+177 silly install resolved     _shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+177 silly install resolved     _from: 'through@>=2.3.4 <2.4.0',
+177 silly install resolved     _npmVersion: '2.12.0',
+177 silly install resolved     _nodeVersion: '2.3.1',
+177 silly install resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+177 silly install resolved     maintainers: [ [Object] ],
+177 silly install resolved     dist:
+177 silly install resolved      { shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+177 silly install resolved        tarball: 'http://registry.npmjs.org/through/-/through-2.3.8.tgz' },
+177 silly install resolved     directories: {},
+177 silly install resolved     _resolved: 'https://registry.npmjs.org/through/-/through-2.3.8.tgz',
+177 silly install resolved     readme: 'ERROR: No README data found!' } ]
+178 info install through@2.3.8 into /Users/Jeremy/node_modules/stream-combiner
+179 info installOne through@2.3.8
+180 verbose installOne of through to /Users/Jeremy/node_modules/stream-combiner not in flight; installing
+181 verbose lock using /Users/Jeremy/.npm/_locks/through-7d121da74bd3c80a.lock for /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+182 silly install write writing through 2.3.8 to /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+183 verbose unbuild node_modules/stream-combiner/node_modules/through
+184 silly gentlyRm /Users/Jeremy/node_modules/stream-combiner/node_modules/through is being purged from base /Users/Jeremy
+185 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+186 verbose tar unpack /Users/Jeremy/.npm/through/2.3.8/package.tgz
+187 verbose tar unpacking to /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+188 silly gentlyRm /Users/Jeremy/node_modules/stream-combiner/node_modules/through is being purged
+189 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+190 silly gunzTarPerm modes [ '755', '644' ]
+191 silly gunzTarPerm extractEntry package.json
+192 silly gunzTarPerm extractEntry index.js
+193 silly gunzTarPerm extractEntry .travis.yml
+194 silly gunzTarPerm extractEntry LICENSE.APACHE2
+195 silly gunzTarPerm extractEntry LICENSE.MIT
+196 silly gunzTarPerm extractEntry readme.markdown
+197 silly gunzTarPerm extractEntry test/async.js
+198 silly gunzTarPerm extractEntry test/auto-destroy.js
+199 silly gunzTarPerm extractEntry test/buffering.js
+200 silly gunzTarPerm extractEntry test/end.js
+201 silly gunzTarPerm extractEntry test/index.js
+202 verbose write writing to /Users/Jeremy/node_modules/stream-combiner/node_modules/through/package.json
+203 info preinstall through@2.3.8
+204 verbose readDependencies loading dependencies from /Users/Jeremy/node_modules/stream-combiner/node_modules/through/package.json
+205 verbose readDependencies loading dependencies from /Users/Jeremy/node_modules/stream-combiner/node_modules/through/package.json
+206 silly install resolved []
+207 verbose about to build /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+208 info build /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+209 info linkStuff through@2.3.8
+210 silly linkStuff through@2.3.8 has /Users/Jeremy/node_modules/stream-combiner/node_modules as its parent node_modules
+211 verbose linkBins through@2.3.8
+212 verbose linkMans through@2.3.8
+213 verbose rebuildBundles through@2.3.8
+214 info install through@2.3.8
+215 info postinstall through@2.3.8
+216 verbose unlock done using /Users/Jeremy/.npm/_locks/through-7d121da74bd3c80a.lock for /Users/Jeremy/node_modules/stream-combiner/node_modules/through
+217 verbose about to build /Users/Jeremy/node_modules/stream-combiner
+218 info build /Users/Jeremy/node_modules/stream-combiner
+219 info linkStuff stream-combiner@0.2.2
+220 silly linkStuff stream-combiner@0.2.2 has /Users/Jeremy/node_modules as its parent node_modules
+221 verbose linkBins stream-combiner@0.2.2
+222 verbose linkMans stream-combiner@0.2.2
+223 verbose rebuildBundles stream-combiner@0.2.2
+224 verbose rebuildBundles [ 'through' ]
+225 info install stream-combiner@0.2.2
+226 info postinstall stream-combiner@0.2.2
+227 verbose unlock done using /Users/Jeremy/.npm/_locks/stream-combiner-dd0ca251466ff470.lock for /Users/Jeremy/node_modules/stream-combiner
+228 verbose stack Error: zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+228 verbose stack spawn ENOENT
+228 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+228 verbose stack     at ChildProcess.emit (events.js:110:17)
+228 verbose stack     at maybeClose (child_process.js:1015:16)
+228 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+229 verbose pkgid zlib@1.0.5
+230 verbose cwd /Users/Jeremy/pj/stream-adventure-tutorial
+231 error Darwin 14.4.0
+232 error argv "node" "/usr/local/bin/npm" "install" "zlib" "stream-combiner"
+233 error node v0.12.4
+234 error npm  v2.10.1
+235 error file sh
+236 error code ELIFECYCLE
+237 error errno ENOENT
+238 error syscall spawn
+239 error zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+239 error spawn ENOENT
+240 error Failed at the zlib@1.0.5 preinstall script 'node-waf clean || true; node-waf configure build'.
+240 error This is most likely a problem with the zlib package,
+240 error not with npm itself.
+240 error Tell the author that this fails on your system:
+240 error     node-waf clean || true; node-waf configure build
+240 error You can get their info via:
+240 error     npm owner ls zlib
+240 error There is likely additional logging output above.
+241 verbose exit [ 1, true ]
+242 verbose unbuild node_modules/zlib
+243 info preuninstall zlib@1.0.5
+244 info uninstall zlib@1.0.5
+245 verbose unbuild rmStuff zlib@1.0.5 from /Users/Jeremy/node_modules
+246 info postuninstall zlib@1.0.5
+247 silly gentlyRm /Users/Jeremy/node_modules/zlib is being purged from base /Users/Jeremy
+248 verbose gentlyRm don't care about contents; nuking /Users/Jeremy/node_modules/zlib
+249 silly vacuum-fs purging /Users/Jeremy/node_modules/zlib
+250 silly vacuum-fs quitting because other entries in /Users/Jeremy/node_modules
